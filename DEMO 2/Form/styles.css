@@ -1,6 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
     margin: 150px;
     padding: 20px;
     background-color: beige;
@@ -69,17 +68,28 @@ input {
  }
 
  section {
+    justify-content: center;
+    margin: auto;
     text-align: center;
     border: black solid 2px;
     border-radius: 10px;
     background-color: antiquewhite;
+    width: 400px;
  }
 
- .container {
+ .formulario {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
+    margin: auto;
+    text-align: center;
+    border: rgb(130, 129, 129) solid 2px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 400px;
+    box-shadow: 10px 10px 5px #efeeee;
  }
+
+ 
 
