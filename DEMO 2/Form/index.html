@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+   <header>
+  
+</header>
+
+<section class="formulario">
+    <h1> FORMULARIO REGISTRO ÚNICO</h1>
+    <h4> Responde satisfactoriamente todos los campos y serás contactado en los próximos dias</h4>
+    <img src="https://e7.pngegg.com/pngimages/564/148/png-clipart-computer-icons-computer-software-form-education-others-text-logo.png" alt="Formulario" style="width: 200px; height: 150px;">
+    <form action="/DEMO 2/Responses/form.html" method="get" autocomplete="on">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <label for="tipo de documento">Tipo de documento:</label>
+        <select id="tipo de documento" name="tipo de documento">
+            <option value="cc">Cédula de Ciudadanía</option>
+            <option value="ti">Tarjeta de Identidad</option>
+            <option value="pasaporte">Pasaporte</option>
+        </select><br><br>
+
+        <label for="# documento">Número de documento:</label>
+        <input type="number" id="documento" name="documento"><br><br>
+
+        <label for="genero">Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino"> 
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br><br>
+
+        <label for="pais">Selecciona tu país de nacimiento:</label>
+        <select id="pais" name="pais">
+            <option value="colombia">Colombia</option>
+            <option value="peru">Perú</option>
+            <option value="argentina">Argentina</option>
+            <option value="chile">Chile</option>
+            <option value="mexico">México</option>
+        </select><br><br>
+        
+        <button type="submit">Enviar</button>
+        <button type="submit">Volver</button>
+    </form>
+</section>
+</body>
+</html>
